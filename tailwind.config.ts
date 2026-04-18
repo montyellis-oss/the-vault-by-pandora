@@ -27,30 +27,6 @@ const config: Config = {
         display: ['"Inter"', "system-ui", "sans-serif"],
         body: ['"Inter"', "system-ui", "sans-serif"],
       },
-      animation: {
-        "fade-in": "fadeIn 0.6s ease-out forwards",
-        "fade-up": "fadeUp 0.6s ease-out forwards",
-        "slide-in": "slideIn 0.5s ease-out forwards",
-        shimmer: "shimmer 2s linear infinite",
-      },
-      keyframes: {
-        fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
-        fadeUp: {
-          "0%": { opacity: "0", transform: "translateY(20px)" },
-          "100%": { opacity: "1", transform: "translateY(0)" },
-        },
-        slideIn: {
-          "0%": { opacity: "0", transform: "translateX(-10px)" },
-          "100%": { opacity: "1", transform: "translateX(0)" },
-        },
-        shimmer: {
-          "0%": { backgroundPosition: "-200% 0" },
-          "100%": { backgroundPosition: "200% 0" },
-        },
-      },
     },
   },
   plugins: [],
