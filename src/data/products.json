@@ -1,0 +1,62 @@
+[
+  {
+    "id": "elite-notion-os",
+    "title": "Elite Notion OS Dashboard",
+    "price": 49,
+    "category": "Notion",
+    "badge": "Boutique Pick",
+    "description": "The ultimate all-in-one Notion workspace. Seamlessly manage projects, habits, finances, and life goals in a beautifully designed command center built for high performers.",
+    "editorsNote": "Our most requested curation — this dashboard redefines what Notion can do. A must-have for anyone serious about digital organization.",
+    "image": "/products/notion-os.jpg",
+    "affiliateUrl": "https://example.com/elite-notion-os",
+    "featured": true
+  },
+  {
+    "id": "ai-prompt-engine",
+    "title": "Ultimate AI Prompt Engine",
+    "price": 29,
+    "category": "AI Tools",
+    "badge": "Boutique Pick",
+    "description": "A meticulously crafted library of 500+ advanced prompts for ChatGPT, Claude, and Midjourney. Unlock professional-grade outputs across writing, coding, marketing, and creative work.",
+    "editorsNote": "We tested dozens of prompt packs — this one delivers consistently exceptional results. Worth every penny for serious AI users.",
+    "image": "/products/ai-prompts.jpg",
+    "affiliateUrl": "https://example.com/ai-prompt-engine",
+    "featured": true
+  },
+  {
+    "id": "boho-svg-bundle",
+    "title": "100+ Boho SVG Bundle",
+    "price": 15,
+    "category": "Design",
+    "badge": "Boutique Pick",
+    "description": "A curated collection of 100+ hand-drawn bohemian SVG illustrations. Perfect for branding, social media, print-on-demand, and digital product design.",
+    "editorsNote": "Stunning artisan quality that stands apart from generic clip art. These vectors elevate any creative project instantly.",
+    "image": "/products/boho-svg.jpg",
+    "affiliateUrl": "https://example.com/boho-svg-bundle",
+    "featured": false
+  },
+  {
+    "id": "neurodivergent-productivity",
+    "title": "Neurodivergent Productivity Guide",
+    "price": 19,
+    "category": "Notion",
+    "badge": "Boutique Pick",
+    "description": "A compassionate, science-backed digital guide with Notion templates designed specifically for ADHD and neurodivergent minds. Includes focus systems, dopamine menus, and flexible workflows.",
+    "editorsNote": "Finally, a productivity system that doesn't assume everyone's brain works the same way. Thoughtfully designed and genuinely helpful.",
+    "image": "/products/neuro-guide.jpg",
+    "affiliateUrl": "https://example.com/neurodivergent-productivity",
+    "featured": true
+  },
+  {
+    "id": "2026-digital-planner",
+    "title": "2026 Digital Planning System",
+    "price": 25,
+    "category": "Notion",
+    "badge": "Boutique Pick",
+    "description": "A premium hyperlinked digital planner for 2026. Covers daily, weekly, monthly, and yearly planning with goal tracking, habit logs, and aesthetic minimalist design.",
+    "editorsNote": "The gold standard of digital planners. Clean, functional, and gorgeous — it makes planning something you actually look forward to.",
+    "image": "/products/digital-planner.jpg",
+    "affiliateUrl": "https://example.com/2026-digital-planner",
+    "featured": false
+  }
+]
