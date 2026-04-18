@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/the-vault-by-pandora',
+  /* Standard Next.js configuration for Vercel */
 };
 
 export default nextConfig;
