@@ -6,7 +6,6 @@ const PRODUCTS_PATH = path.join(process.cwd(), "src/data/products.json");
 
 function isAuthed(req: NextRequest): boolean {
   const cookie = req.cookies.get("admin_session");
-  // In a real Vercel environment, we'd use an ENV var. Defaulting to a dev secret if not set.
   return cookie?.value === (process.env.ADMIN_SESSION_SECRET || "dev-secret-key");
 }
 

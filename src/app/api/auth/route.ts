@@ -12,7 +12,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "PIN is required" }, { status: 400 });
     }
 
-    // Secure timing-safe comparison
     const isValid = crypto.timingSafeEqual(
       Buffer.from(pin.padEnd(32, "\0")),
       Buffer.from(ADMIN_PIN.padEnd(32, "\0"))
