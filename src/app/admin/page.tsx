@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import AdminLogin from "@/components/admin/AdminLogin";
-import AdminSidebar from "@/components/admin/AdminSidebar";
-import ProductManager from "@/components/admin/ProductManager";
-import PartnerHub from "@/components/admin/PartnerHub";
+import AdminLogin from "../../components/admin/AdminLogin";
+import AdminSidebar from "../../components/admin/AdminSidebar";
+import ProductManager from "../../components/admin/ProductManager";
+import PartnerHub from "../../components/admin/PartnerHub";
 
 export default function AdminPage() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -33,10 +33,10 @@ export default function AdminPage() {
 
   if (checking) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-boutique-black">
+      <div className="flex min-h-screen items-center justify-center bg-black">
         <div className="flex flex-col items-center gap-4">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-boutique-border border-t-boutique-gold" />
-          <span className="text-sm text-boutique-muted">Verifying access…</span>
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-gray-800 border-t-amber-500" />
+          <span className="text-sm text-gray-400">Verifying access…</span>
         </div>
       </div>
     );
@@ -47,7 +47,7 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="flex min-h-screen bg-boutique-black">
+    <div className="flex min-h-screen bg-black">
       <AdminSidebar
         activeTab={activeTab}
         onTabChange={setActiveTab}
