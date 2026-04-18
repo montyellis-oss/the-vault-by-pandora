@@ -9,23 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        boutique: {
-          black: "#0a0a0a",
-          dark: "#111111",
-          card: "#1a1a1a",
-          border: "#2a2a2a",
-          muted: "#666666",
-          text: "#a0a0a0",
-          light: "#e0e0e0",
-          white: "#f5f5f5",
-          gold: "#c9a96e",
-          "gold-light": "#dfc291",
-          accent: "#c9a96e",
+        vault: {
+          black: "#000000",
+          dark: "#080808",
+          slate: "#111111",
+          gray: "#1a1a1a",
+          muted: "#2a2a2a",
+          border: "#222222",
+          gold: "#C9A96E",
+          "gold-light": "#d4b97e",
+          "gold-dark": "#b8944f",
+          text: "#e8e8e8",
+          "text-muted": "#888888",
+          "text-dim": "#555555",
+          success: "#4ade80",
+          danger: "#f87171",
         },
-      },
-      fontFamily: {
-        display: ['"Inter"', "system-ui", "sans-serif"],
-        body: ['"Inter"', "system-ui", "sans-serif"],
       },
     },
   },

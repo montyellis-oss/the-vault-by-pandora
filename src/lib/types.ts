@@ -1,0 +1,2 @@
+export interface Product { id: string; title: string; subtitle: string; category: string; price: number; badge: string; editorsNote: string; affiliateLink: string; partner: string; image: string; }
+export interface Inventory { products: Product[]; partnerLinks: Record<string, string>; }

@@ -1,16 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --color-background: #0a0a0a;
-  --color-foreground: #f5f5f5;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@theme {
+  --color-vault-black: #000000;
+  --color-vault-dark: #080808;
+  --color-vault-slate: #111111;
+  --color-vault-gray: #1a1a1a;
+  --color-vault-muted: #2a2a2a;
+  --color-vault-border: #222222;
+  --color-vault-gold: #C9A96E;
+  --color-vault-gold-light: #d4b97e;
+  --color-vault-gold-dark: #b8944f;
+  --color-vault-text: #e8e8e8;
+  --color-vault-text-muted: #888888;
+  --color-vault-text-dim: #555555;
+  --color-vault-success: #4ade80;
+  --color-vault-danger: #f87171;
 }
 
 html {
@@ -18,64 +22,15 @@ html {
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
-  font-family: 'Inter', system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-vault-black);
+  color: var(--color-vault-text);
 }
 
-::-webkit-scrollbar {
-  width: 6px;
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-::-webkit-scrollbar-track {
-  background: #111111;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #2a2a2a;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
-}
-
-::selection {
-  background: rgba(201, 169, 110, 0.3);
-  color: #f5f5f5;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  
-  .glass-card {
-    background: rgba(26, 26, 26, 0.8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(42, 42, 42, 0.6);
-  }
-  
-  .gold-gradient {
-    background: linear-gradient(135deg, #c9a96e 0%, #dfc291 50%, #c9a96e 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  
-  .gold-border {
-    border-image: linear-gradient(135deg, #c9a96e, #dfc291) 1;
-  }
-  
-  .hover-lift {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .hover-lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  }
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
 }

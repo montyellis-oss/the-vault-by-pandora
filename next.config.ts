@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* standard config for vercel */
+  reactStrictMode: true,
 };
 
 export default nextConfig;

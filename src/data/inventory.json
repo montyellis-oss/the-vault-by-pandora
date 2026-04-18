@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": "landmark-os",
+      "title": "Landmark OS",
+      "subtitle": "Business Operating System",
+      "category": "Notion",
+      "price": 97,
+      "badge": "Boutique Pick",
+      "editorsNote": "The definitive business-in-a-box. Landmark OS replaces six SaaS tools with one seamless Notion workspace.",
+      "affiliateLink": "https://gumroad.com/l/landmark-os",
+      "partner": "Landmark Labs",
+      "image": "/products/landmark.jpg"
+    },
+    {
+      "id": "teknikforce-ai",
+      "title": "Teknikforce AI",
+      "subtitle": "AI Automation Suite",
+      "category": "AI Tools",
+      "price": 197,
+      "badge": "Boutique Pick",
+      "editorsNote": "Enterprise-grade AI automation, distilled for solo operators.",
+      "affiliateLink": "https://gumroad.com/l/teknikforce-ai",
+      "partner": "Teknikforce",
+      "image": "/products/teknikforce.jpg"
+    },
+    {
+      "id": "brandid-assets",
+      "title": "brandID Assets",
+      "subtitle": "Creative Asset Collection",
+      "category": "Design",
+      "price": 149,
+      "badge": "Boutique Pick",
+      "editorsNote": "Complete identity system curated for digital-first brands.",
+      "affiliateLink": "https://etsy.com/shop/brandid",
+      "partner": "brandID",
+      "image": "/products/brandid.jpg"
+    },
+    {
+      "id": "notiondash-planner",
+      "title": "NotionDash Planner",
+      "subtitle": "Strategic Life Planner",
+      "category": "Notion",
+      "price": 49,
+      "badge": "Boutique Pick",
+      "editorsNote": "The planner that thinks the way you do.",
+      "affiliateLink": "https://gumroad.com/l/notiondash",
+      "partner": "NotionDash",
+      "image": "/products/notiondash.jpg"
+    },
+    {
+      "id": "notion-pro",
+      "title": "Notion Pro",
+      "subtitle": "Essential Templates",
+      "category": "Essential",
+      "price": 10,
+      "badge": "Boutique Pick",
+      "editorsNote": "The entry point to the vault.",
+      "affiliateLink": "https://notion.so/templates",
+      "partner": "Notion Official",
+      "image": "/products/notion-pro.jpg"
+    }
+  ],
+  "partnerLinks": {
+    "gumroad": "https://gumroad.com/dashboard",
+    "notion": "https://notion.so/my-integrations",
+    "etsy": "https://etsy.com/your/shops/me/dashboard",
+    "stripe": "https://dashboard.stripe.com",
+    "analytics": "https://analytics.google.com"
+  }
+}

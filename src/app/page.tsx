@@ -1,20 +1,22 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import ProductGallery from "../components/ProductGallery";
-import About from "../components/About";
+import ProductGrid from "../components/ProductGrid";
+import Philosophy from "../components/Philosophy";
 import Footer from "../components/Footer";
-import products from "../data/products.json";
+import inventoryData from "../data/inventory.json";
+import type { Inventory } from "../lib/types";
 
 export default function Home() {
+  const inventory = inventoryData as Inventory;
   return (
-    <>
+    <div className="flex flex-col min-h-screen bg-vault-black">
       <Header />
-      <main>
+      <main className="flex-1">
         <Hero />
-        <ProductGallery products={products} />
-        <About />
+        <ProductGrid products={inventory.products} />
+        <Philosophy />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
